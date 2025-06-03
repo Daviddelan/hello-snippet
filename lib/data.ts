@@ -43,30 +43,30 @@ export const events: Event[] = [
   },
   {
     id: "5",
-    title: "Food & Wine Festival",
-    description: "Celebrate culinary excellence with gourmet food and fine wines.",
-    date: "2025-07-25",
-    location: "Riverfront Park",
-    category: "Fest",
-    image: "https://images.pexels.com/photos/1267360/pexels-photo-1267360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    title: "Behold Your God ‘25: A Worship And Medical Outreach",
+    description: "A night of uninterrupted worship and praise to God. 3 hours of non stop worship, praise and prayers; a night where we fellowship together and touch God’s heart.",
+    date: "2025-06-15",
+    location: "Korle Bu Teaching Hospital",
+    category: "Church",
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748934175/Screenshot_2025-06-03_at_7.02.29_AM_dftvlw.png"
   },
   {
     id: "6",
-    title: "Electronic Dance Night",
-    description: "Night of electronic music with world-renowned DJs.",
-    date: "2025-08-15",
-    location: "Nightclub XYZ",
+    title: "Invasion 2025"",
+    description: "THEME: FAITH FOR EXPLOITS",
+    date: "2025-06-22",
+    location: "University Of Ghana Sports Stadium",
     category: "Music",
-    image: "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748934359/Screenshot_2025-06-03_at_7.05.49_AM_jwfkdz.png"
   },
   {
     id: "7",
-    title: "Summer End Party",
-    description: "Celebrate the end of summer with food, drinks, and live music.",
+    title: "CHAYIL CONFERENCE 2025",
+    description: "An annual gathering of women who are fulfilling the urgency of God to be who he had ordained us to be.",
     date: "2025-09-10",
-    location: "Beach Resort",
-    category: "Party",
-    image: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    location: "Tema, Ghana",
+    category: "Conference",
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748934599/Screenshot_2025-06-03_at_7.09.51_AM_xc61uv.png"
   },
   {
     id: "8",
