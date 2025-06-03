@@ -1,8 +1,14 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Montserrat } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+
+const montserrat = Montserrat({ 
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'HelloSnippet - Find and Manage Events',
@@ -16,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="font-tangosans">
+      <body className={montserrat.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
