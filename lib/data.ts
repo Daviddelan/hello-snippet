@@ -34,7 +34,7 @@ export const events: Event[] = [
   {
     id: "4",
     title: "EDENIC WORSHIP EXPERIENCEt",
-    description: "A night of uninterrupted worship and praise to God. 3 hours of non stop worship, praise and prayers; a night where we fellowship together and touch God’s heart.",
+    description: "A night of uninterrupted worship and praise to God. 3 hours of non stop worship, praise and prayers; a night where we fellowship together and touch God's heart.",
     date: "2025-06-08",
     location: "ICGC Calvary Temple",
     category: "Church",
@@ -43,8 +43,8 @@ export const events: Event[] = [
   },
   {
     id: "5",
-    title: "Behold Your God ‘25: A Worship And Medical Outreach",
-    description: "A night of uninterrupted worship and praise to God. 3 hours of non stop worship, praise and prayers; a night where we fellowship together and touch God’s heart.",
+    title: "Behold Your God '25: A Worship And Medical Outreach",
+    description: "A night of uninterrupted worship and praise to God. 3 hours of non stop worship, praise and prayers; a night where we fellowship together and touch God's heart.",
     date: "2025-06-15",
     location: "Korle Bu Teaching Hospital",
     category: "Church",
@@ -71,7 +71,7 @@ export const events: Event[] = [
   {
     id: "8",
     title: "Fire Festival",
-    description: "Fire Festival is a youth revival gathering by The Oasis Collective in KNUST, igniting a generation with God’s fire through worship, teaching, and spiritual encounters.",
+    description: "Fire Festival is a youth revival gathering by The Oasis Collective in KNUST, igniting a generation with God's fire through worship, teaching, and spiritual encounters.",
     date: "2025-10-05",
     location: "Evans Anfom Auditorium Complex",
     category: "Church",
