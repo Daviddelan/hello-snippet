@@ -4,7 +4,7 @@ export const events: Event[] = [
   {
     id: "1",
     title: "Fire Camp",
-    description: "Annual summer music festival featuring top artists from around the world.",
+    description: "Annual gathering with the Holy Ghost for fresh fire.",
     date: "2025-05-26",
     location: "Pentecost Convention Center, Millenium City",
     category: "Church",
