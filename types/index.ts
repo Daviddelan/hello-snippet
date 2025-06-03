@@ -9,4 +9,4 @@ export interface Event {
   featured?: boolean;
 }
 
-export type Category = 'Fest' | 'Music' | 'Church' | 'Play' | 'Cars' | 'Party' | 'All';
+export type Category = 'All' | 'Fest' | 'Music' | 'Church' | 'Play' | 'Cars' | 'Party' | 'Conference';

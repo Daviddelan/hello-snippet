@@ -2,14 +2,13 @@
 
 import { Category } from "@/types"
 import { Button } from "@/components/ui/button"
-import { useState } from "react"
 
 interface CategoryFiltersProps {
   selectedCategory: Category
   onChange: (category: Category) => void
 }
 
-const categories: Category[] = ["All", "Fest", "Music", "Church", "Play", "Cars", "Party"]
+const categories: Category[] = ["All", "Fest", "Music", "Church", "Play", "Cars", "Party", "Conference"]
 
 export default function CategoryFilters({ selectedCategory, onChange }: CategoryFiltersProps) {
   return (
