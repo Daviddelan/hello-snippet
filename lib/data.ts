@@ -8,7 +8,7 @@ export const events: Event[] = [
     date: "2025-07-15",
     location: "Central Park",
     category: "Music",
-    image: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748933188/Screenshot_2025-06-03_at_6.46.19_AM_vkkafe.png",
     featured: true
   },
   {
