@@ -27,14 +27,14 @@ export default function EventDetail({ event }: EventDetailProps) {
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
         <div className="absolute bottom-0 left-0 p-6">
-          <span className="inline-block bg-primary px-3 py-1 text-white text-sm font-semibold rounded-full mb-2">
+          <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold mb-2">
             {event.category}
           </span>
           <h1 className="text-3xl md:text-4xl font-bold text-white">{event.title}</h1>
         </div>
       </div>
       
-      <div className="flex flex-col md:flex-row md:justify-between gap-6 mb-8">
+      <div className="flex flex-col md:flex-row md:justify-between gap-6 mb-8 text-foreground">
         <div className="flex items-center gap-2">
           <Calendar className="h-5 w-5 text-primary" />
           <span>{formatDate(event.date)}</span>
@@ -49,8 +49,8 @@ export default function EventDetail({ event }: EventDetailProps) {
       </div>
       
       <div className="prose dark:prose-invert max-w-none">
-        <h2 className="text-2xl font-semibold mb-4">About This Event</h2>
-        <p className="text-lg">{event.description}</p>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground">About This Event</h2>
+        <p className="text-lg text-foreground">{event.description}</p>
       </div>
       
       <div className="mt-8 flex justify-between items-center">

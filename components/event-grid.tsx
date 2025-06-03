@@ -1,3 +1,5 @@
+"use client"
+
 import { Event } from "@/types"
 import Link from "next/link"
 import Image from "next/image"
@@ -39,15 +41,15 @@ export default function EventGrid({ events }: EventGridProps) {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div className="p-4">
-              <span className="inline-block bg-primary/10 text-primary px-2 py-1 rounded-full text-sm mb-2">
+            <div className="p-4 bg-card">
+              <span className="inline-block bg-primary text-primary-foreground px-2 py-1 rounded-full text-sm mb-2">
                 {event.category}
               </span>
-              <h3 className="font-semibold text-lg mb-1 line-clamp-1">{event.title}</h3>
+              <h3 className="font-semibold text-lg mb-1 line-clamp-1 text-foreground">{event.title}</h3>
               <p className="text-muted-foreground text-sm mb-2 line-clamp-2">
                 {event.description}
               </p>
-              <div className="flex items-center justify-between text-sm">
+              <div className="flex items-center justify-between text-sm text-foreground">
                 <span>{formatDate(event.date)}</span>
                 <span className="text-primary">{event.location}</span>
               </div>
