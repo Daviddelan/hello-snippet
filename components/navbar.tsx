@@ -14,7 +14,7 @@ export default function Navbar() {
       <div>
         <Link href="/" className="flex items-center">
           <Image
-            src="/Screenshot 2025-06-03 at 7.32.40 AM.png"
+            src="/HelloSnippet"
             alt="HelloSnippet Logo"
             width={150}
             height={40}
