@@ -47,18 +47,19 @@ export default function HeroSlideshow({ events }: HeroSlideshowProps) {
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Dark overlay for better text visibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
       </div>
       
       {/* Event content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-        <span className="inline-block bg-primary px-4 py-1 rounded-full text-sm font-semibold text-white mb-4">
+        <span className="inline-block bg-primary px-4 py-1 rounded-full text-sm font-semibold text-primary-foreground mb-4">
           {currentEvent.category}
         </span>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl">
           {currentEvent.title}
         </h1>
-        <p className="text-lg text-white/90 mb-6 max-w-2xl">
+        <p className="text-lg text-white mb-6 max-w-2xl">
           {currentEvent.description}
         </p>
       </div>
