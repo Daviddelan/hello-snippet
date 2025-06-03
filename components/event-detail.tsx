@@ -14,16 +14,18 @@ export default function EventDetail({ event }: EventDetailProps) {
 
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8">
-      <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden mb-8">
-        <Image 
-          src={event.image}
-          alt={event.title}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/30"></div>
+      <div className="relative w-full rounded-lg overflow-hidden mb-8">
+        <div className="relative aspect-[16/9] md:aspect-[2/1] lg:aspect-[2.5/1]">
+          <Image 
+            src={event.image}
+            alt={event.title}
+            fill
+            className="object-contain bg-black/95"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
         <div className="absolute bottom-0 left-0 p-6">
           <span className="inline-block bg-primary px-3 py-1 text-white text-sm font-semibold rounded-full mb-2">
             {event.category}
