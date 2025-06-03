@@ -36,21 +36,22 @@ export default function HeroSlideshow({ events }: HeroSlideshowProps) {
   const currentEvent = events[currentIndex]
 
   return (
-    <div className="relative h-[500px] overflow-hidden">
-      {/* Event image */}
-      <div className="absolute inset-0">
-        <Image
-          src={currentEvent.image}
-          alt={currentEvent.title}
-          fill
-          className="object-cover"
-          priority
-        />
+    <div className="relative overflow-hidden bg-black">
+      <div className="relative w-full">
+        <div className="relative aspect-[16/9] md:aspect-[2/1] lg:aspect-[2.5/1]">
+          <Image
+            src={currentEvent.image}
+            alt={currentEvent.title}
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
         <div className="absolute inset-0 bg-black/50" />
       </div>
       
       {/* Event content */}
-      <div className="relative h-full flex flex-col justify-center items-center text-center px-4">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
         <span className="inline-block bg-primary px-4 py-1 rounded-full text-sm font-semibold text-white mb-4">
           {currentEvent.category}
         </span>
