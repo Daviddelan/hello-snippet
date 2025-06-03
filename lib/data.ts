@@ -107,11 +107,11 @@ export const events: Event[] = [
   {
     id: "12",
     title: "VALUE INVESTMENT BOOTCAMP",
-    description: "TO BE DETERMINED",
+    description: "Unlock the Secret of investments; company valuation, stock selection and portfolio development with Dr. Emmanuel Kingsford Owusu",
     date: "2025-12-20",
     location: "Ashesi University",
     category: "Conference",
-    image: "Unlock the Secret of investments; company valuation, stock selection and portfolio development with Dr. Emmanuel Kingsford Owusu"
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748935114/Screenshot_2025-06-03_at_7.18.26_AM_qnvesv.png"
   }
 ];
 
