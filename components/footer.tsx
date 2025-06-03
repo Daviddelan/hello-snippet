@@ -27,15 +27,15 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-muted-foreground">
-            &copy; 2025 EventHub, Inc. All rights reserved.
+            &copy; 2025 HelloSnippet, Inc. All rights reserved.
           </p>
         </div>
       </div>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-2 flex flex-col md:flex-row justify-between gap-8">
         <div>
-          <h3 className="text-lg font-semibold mb-4">About EventHub</h3>
+          <h3 className="text-lg font-semibold mb-4">About HelloSnippet</h3>
           <p className="text-sm text-muted-foreground max-w-md">
-            EventHub is your premier platform for discovering and managing events in your area. 
+            HelloSnippet is your premier platform for discovering and managing events in your area. 
             From music festivals to car shows, we've got you covered.
           </p>
         </div>
@@ -44,11 +44,13 @@ export default function Footer() {
           <ul className="space-y-2">
             <li className="flex items-center gap-2 text-sm text-muted-foreground">
               <MapPin className="h-4 w-4" />
-              <span>123 Event Street, City, Country</span>
+              <span>Ashesi University, Berekuso, Ghana</span>
             </li>
             <li className="flex items-center gap-2 text-sm text-muted-foreground">
               <Phone className="h-4 w-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+233 26 554 4837</span>
+              <span>+233 26 531 2612</span>
+              <span>+233 50 715 0959</span>
             </li>
             <li className="flex items-center gap-2 text-sm text-muted-foreground">
               <Mail className="h-4 w-4" />
