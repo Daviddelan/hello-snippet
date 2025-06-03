@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MoonIcon, SunIcon } from "lucide-react"
 import { useTheme } from "next-themes"
+import Image from "next/image"
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme()
@@ -11,7 +12,16 @@ export default function Navbar() {
   return (
     <nav className="w-full h-16 flex items-center justify-between px-4 md:px-6 border-b">
       <div>
-        <Link href="/" className="text-xl font-bold">EventHub</Link>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/Screenshot 2025-06-03 at 7.32.40 AM.png"
+            alt="HelloSnippet Logo"
+            width={150}
+            height={40}
+            className="object-contain"
+            priority
+          />
+        </Link>
       </div>
       <div className="flex items-center gap-4">
         <Link href="/events">
