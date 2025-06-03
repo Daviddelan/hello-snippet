@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full h-16 flex items-center justify-between border-b">
-      <div className="h-full pl-2">
+      <div className="h-full">
         <Link href="/" className="flex items-center h-full">
           <Image
             src="/HelloSnippet"
