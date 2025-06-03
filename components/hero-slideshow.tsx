@@ -61,7 +61,10 @@ export default function HeroSlideshow({ events }: HeroSlideshowProps) {
         <p className="text-lg text-white/90 mb-6 max-w-2xl">
           {currentEvent.description}
         </p>
-        
+      </div>
+
+      {/* Explore Event button */}
+      <div className="absolute bottom-8 right-8">
         <Link href={`/events/${currentEvent.id}`}>
           <Button size="lg" className="bg-white text-black hover:bg-white/90">
             Explore Event
@@ -70,7 +73,7 @@ export default function HeroSlideshow({ events }: HeroSlideshowProps) {
       </div>
 
       {/* Navigation dots */}
-      <div className="absolute bottom-8 flex space-x-2">
+      <div className="absolute bottom-8 left-8 flex space-x-2">
         {events.map((_, index) => (
           <button
             key={index}
