@@ -70,28 +70,28 @@ export const events: Event[] = [
   },
   {
     id: "8",
-    title: "Opera Night",
-    description: "A magical evening of classical opera performances.",
+    title: "Fire Festival",
+    description: "Fire Festival is a youth revival gathering by The Oasis Collective in KNUST, igniting a generation with God’s fire through worship, teaching, and spiritual encounters.",
     date: "2025-10-05",
-    location: "Opera House",
-    category: "Play",
-    image: "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    location: "Evans Anfom Auditorium Complex",
+    category: "Church",
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748934638/Screenshot_2025-06-03_at_7.10.30_AM_kkf845.png"
   },
   {
     id: "9",
-    title: "Charity Gala",
-    description: "Annual charity event raising funds for children's education.",
+    title: "SHABACH PRAISE",
+    description: "Shabach Praise is an annual youth music concert organized by the Youth Ministry of The Apostolic Church. For five years, it has united hundreds of young people and families through dynamic worship, music, and community engagem",
     date: "2025-11-15",
-    location: "Grand Hotel",
-    category: "Party",
-    image: "https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    location: "The Apostolic Church, Dansoman Central",
+    category: "Church",
+    image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748934755/Screenshot_2025-06-03_at_7.12.23_AM_eh4kma.png"
   },
   {
     id: "10",
     title: "Tech Conference",
     description: "Exploring the future of technology with industry leaders.",
     date: "2025-12-10",
-    location: "Tech Campus",
+    location: "Ashesi University",
     category: "Fest",
     image: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
@@ -100,18 +100,18 @@ export const events: Event[] = [
     title: "Sports Car Rally",
     description: "Exhibition and rally of luxury sports cars.",
     date: "2026-01-20",
-    location: "Race Track",
+    location: "East Legon, Accra"",
     category: "Cars",
     image: "https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     id: "12",
-    title: "Christmas Carol Concert",
-    description: "Traditional Christmas carols performed by local choirs.",
+    title: "VALUE INVESTMENT BOOTCAMP",
+    description: "TO BE DETERMINED",
     date: "2025-12-20",
-    location: "Community Church",
-    category: "Church",
-    image: "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    location: "Ashesi University",
+    category: "Conference",
+    image: "Unlock the Secret of investments; company valuation, stock selection and portfolio development with Dr. Emmanuel Kingsford Owusu"
   }
 ];
 
