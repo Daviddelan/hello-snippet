@@ -10,8 +10,8 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme()
 
   return (
-    <nav className="w-full h-16 flex items-center justify-between px-4 md:px-6 border-b">
-      <div className="h-full py-2">
+    <nav className="w-full h-16 flex items-center justify-between border-b">
+      <div className="h-full pl-2">
         <Link href="/" className="flex items-center h-full">
           <Image
             src="/HelloSnippet"
@@ -23,7 +23,7 @@ export default function Navbar() {
           />
         </Link>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 px-4 md:px-6">
         <Link href="/events">
           <Button variant="ghost">Events</Button>
         </Link>
