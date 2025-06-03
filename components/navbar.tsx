@@ -10,7 +10,7 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme()
 
   return (
-    <nav className="w-full h-16 flex items-center justify-between px-4 md:px-6 border-b bg-[#4B2E83]">
+    <nav className="w-full h-16 flex items-center justify-between px-4 md:px-6 border-b bg-[#5E3B9C]">
       <div>
         <Link href="/" className="flex items-center">
           <Image
