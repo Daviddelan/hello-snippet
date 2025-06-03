@@ -3,11 +3,11 @@ import { Event } from "@/types";
 export const events: Event[] = [
   {
     id: "1",
-    title: "Summer Music Festival",
+    title: "Fire Camp",
     description: "Annual summer music festival featuring top artists from around the world.",
-    date: "2025-07-15",
-    location: "Central Park",
-    category: "Music",
+    date: "2025-05-26",
+    location: "Pentecost Convention Center, Millenium City",
+    category: "Church",
     image: "https://res.cloudinary.com/dt3xctihn/image/upload/v1748933188/Screenshot_2025-06-03_at_6.46.19_AM_vkkafe.png",
     featured: true
   },
