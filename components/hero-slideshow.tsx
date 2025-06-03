@@ -64,26 +64,26 @@ export default function HeroSlideshow({ events }: HeroSlideshowProps) {
         
         <Link href={`/events/${currentEvent.id}`}>
           <Button size="lg" className="bg-white text-black hover:bg-white/90">
-            Learn More
+            Explore Event
           </Button>
         </Link>
-        
-        {/* Navigation dots */}
-        <div className="absolute bottom-8 flex space-x-2">
-          {events.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentIndex(index)}
-              className={cn(
-                "w-2.5 h-2.5 rounded-full transition-all duration-300",
-                index === currentIndex 
-                  ? "bg-white w-5" 
-                  : "bg-white/50 hover:bg-white/80"
-              )}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div>
+      </div>
+
+      {/* Navigation dots */}
+      <div className="absolute bottom-8 flex space-x-2">
+        {events.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentIndex(index)}
+            className={cn(
+              "w-2.5 h-2.5 rounded-full transition-all duration-300",
+              index === currentIndex 
+                ? "bg-white w-5" 
+                : "bg-white/50 hover:bg-white/80"
+            )}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
       </div>
 
       {/* Arrow navigation */}
