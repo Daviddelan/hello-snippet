@@ -11,14 +11,14 @@ export default function Navbar() {
 
   return (
     <nav className="w-full h-16 flex items-center justify-between px-4 md:px-6 border-b">
-      <div>
-        <Link href="/" className="flex items-center">
+      <div className="h-full py-2">
+        <Link href="/" className="flex items-center h-full">
           <Image
             src="/HelloSnippet"
             alt="HelloSnippet Logo"
-            width={150}
-            height={40}
-            className="object-contain"
+            width={180}
+            height={64}
+            className="h-full w-auto"
             priority
           />
         </Link>
