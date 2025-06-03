@@ -102,9 +102,11 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-tangosans;
+    @apply bg-background text-foreground;
+    font-family: 'TangoSans', sans-serif;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-tangosans font-bold;
+    font-family: 'TangoSans', sans-serif;
+    font-weight: bold;
   }
 }
