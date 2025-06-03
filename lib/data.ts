@@ -52,7 +52,7 @@ export const events: Event[] = [
   },
   {
     id: "6",
-    title: "Invasion 2025"",
+    title: "Invasion 2025",
     description: "THEME: FAITH FOR EXPLOITS",
     date: "2025-06-22",
     location: "University Of Ghana Sports Stadium",
