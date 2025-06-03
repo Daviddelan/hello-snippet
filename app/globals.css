@@ -2,13 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'TangoSans';
-  src: url('/fonts/TangoSans.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -86,9 +80,9 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-tangosans;
+    @apply bg-background text-foreground font-['Plus_Jakarta_Sans'];
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-tangosans font-bold;
+    @apply font-['Plus_Jakarta_Sans'] font-bold;
   }
 }
