@@ -100,7 +100,7 @@ export const events: Event[] = [
     title: "Sports Car Rally",
     description: "Exhibition and rally of luxury sports cars.",
     date: "2026-01-20",
-    location: "East Legon, Accra"",
+    location: "East Legon, Accra",
     category: "Cars",
     image: "https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
